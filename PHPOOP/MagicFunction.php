@@ -1,6 +1,6 @@
 <?php
 
-require_once "MagicFunction/ToString.php";
+require_once "MagicFunction/DebugInfo.php";
 
 $student1 = new Student();
 
@@ -12,3 +12,5 @@ $string = (string) $student1;
 echo $string;
 
 echo $student1 . PHP_EOL;
+
+var_dump($student1);
