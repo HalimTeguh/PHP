@@ -1,0 +1,17 @@
+{
+    "name": "halim/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Halim\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Halim Teguh Saputro",
+            "email": "2131710122@student.polinema.ac.id"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "halim/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Halim\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Halim Teguh Saputro",
+            "email": "2131710122@student.polinema.ac.id"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.3"
+    }
+}
