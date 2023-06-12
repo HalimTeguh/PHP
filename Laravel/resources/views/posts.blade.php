@@ -5,11 +5,11 @@
     @foreach ($posts as $post)
         <article class="mb-4">
             <h2> 
-                <a href="/post/{{$post['slug']}}">
-                    {{$post['title']}} </h2>
+                <a href="/post/{{ $post->slug }}">
+                    {{ $post->tittle }} </h2>
                 </a>
-            <h4> {{$post['author']}} </h4>
-            <p> {{$post['body']}} </p>
+            <h4> {{ $post->author }} </h4>
+            <p> {{ $post->excerpt }} </p>
         </article>
     @endforeach
 @endsection
